@@ -523,80 +523,39 @@ code.success {
 }
 
 .contact-section {
-  display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(360px, 0.8fr);
-  align-items: stretch;
-  gap: clamp(28px, 6vw, 70px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
   border-top: 1px solid var(--line);
-  background:
-    linear-gradient(135deg, rgba(23, 23, 23, 0.94), rgba(23, 23, 23, 0.86)),
-    var(--ink);
-  color: #fff;
-}
-
-.contact-copy {
-  max-width: 680px;
-}
-
-.contact-copy .eyebrow {
-  color: #7ef0bd;
-}
-
-.contact-copy p {
-  color: rgba(255, 255, 255, 0.72);
+  background: #fff;
 }
 
 .contact-panel {
   min-width: min(100%, 520px);
-  border: 1px solid rgba(255, 255, 255, 0.13);
-  border-radius: 8px;
-  padding: 24px;
-  background: rgba(255, 255, 255, 0.08);
-  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.18);
 }
 
 .contact-links {
   display: grid;
-  gap: 12px;
+  gap: 10px;
 }
 
 .contact-links a {
   display: grid;
   gap: 3px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 8px;
-  padding: 13px 14px;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.07);
+  color: var(--muted);
   font-weight: 800;
   overflow-wrap: anywhere;
 }
 
 .contact-links span {
-  color: #7ef0bd;
+  color: var(--green);
   font-size: 0.74rem;
   text-transform: uppercase;
 }
 
 .contact-links a:hover {
-  border-color: rgba(126, 240, 189, 0.46);
-}
-
-.resume-upload {
-  display: inline-flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 14px;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 0.9rem;
-  font-weight: 800;
-}
-
-.resume-upload input {
-  max-width: 230px;
-  color: rgba(255, 255, 255, 0.72);
-  font: inherit;
+  color: var(--ink);
 }
 
 .site-footer {

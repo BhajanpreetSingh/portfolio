@@ -12,24 +12,3 @@ siteNav?.querySelectorAll("a").forEach((link) => {
     navToggle?.setAttribute("aria-expanded", "false");
   });
 });
-
-const resumeInput = document.querySelector("#resumeInput");
-const resumeDownload = document.querySelector("#resumeDownload");
-let activeResumeUrl;
-
-resumeInput?.addEventListener("change", () => {
-  const file = resumeInput.files?.[0];
-
-  if (!file || !resumeDownload) {
-    return;
-  }
-
-  if (activeResumeUrl) {
-    URL.revokeObjectURL(activeResumeUrl);
-  }
-
-  activeResumeUrl = URL.createObjectURL(file);
-  resumeDownload.href = activeResumeUrl;
-  resumeDownload.download = file.name;
-  resumeDownload.textContent = "Download Selected Resume";
-});
