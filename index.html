@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhajanpreet Singh | Software Developer & DevOps Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="brand-mark">BS</span>
+        <span>Bhajanpreet Singh</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <div class="hero-copy">
+          <p class="eyebrow">Software Developer moving into DevOps</p>
+          <h1>Hi, I am Bhajanpreet Singh.</h1>
+          <p class="hero-text">
+            Software Developer at Jivo Wellness with 2 years of experience across
+            development and deployment. I build practical software, work on releases,
+            and I am growing deeper into DevOps through CI/CD, cloud, automation,
+            containers, monitoring, and infrastructure practices.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="DevOps pipeline illustration">
+          <div class="pipeline-card terminal-card">
+            <div class="terminal-top">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <code>$ deploy --env production</code>
+            <code class="success">build passed in 02:14</code>
+          </div>
+          <div class="pipeline-grid">
+            <div class="pipeline-node node-code">Code</div>
+            <div class="pipeline-node node-build">Build</div>
+            <div class="pipeline-node node-test">Test</div>
+            <div class="pipeline-node node-ship">Ship</div>
+          </div>
+          <div class="metrics-strip">
+            <span><strong>99.9%</strong> uptime</span>
+            <span><strong>3x</strong> faster releases</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section split-section">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Developer foundation with real deployment experience.</h2>
+        </div>
+        <p>
+          I am currently working as a Software Developer at Jivo Wellness, with
+          hands-on experience in both application development and deployment. My
+          current focus is growing from software engineering into DevOps work:
+          automation, deployment pipelines, cloud services, Linux, scripting,
+          observability, and production-minded engineering.
+        </p>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>What I am working with</h2>
+        </div>
+
+        <div class="skills-layout">
+          <article class="skill-group">
+            <h3>Software Development</h3>
+            <div class="chips">
+              <span>.NET Core</span>
+              <span>C#</span>
+              <span>PHP</span>
+              <span>JavaScript</span>
+              <span>APIs</span>
+              <span>SQL Server</span>
+              <span>PostgreSQL</span>
+            </div>
+          </article>
+          <article class="skill-group accent">
+            <h3>DevOps Learning Path</h3>
+            <div class="chips">
+              <span>Microsoft Azure</span>
+              <span>Azure DevOps</span>
+              <span>Linux</span>
+              <span>Docker</span>
+              <span>CI/CD</span>
+              <span>Kubernetes</span>
+              <span>Terraform</span>
+              <span>ARM Templates</span>
+            </div>
+          </article>
+          <article class="skill-group">
+            <h3>Workflow</h3>
+            <div class="chips">
+              <span>Agile</span>
+              <span>Problem Solving</span>
+              <span>Debugging</span>
+              <span>Documentation</span>
+              <span>Teamwork</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date">Current</span>
+            <h3>Software Developer - Jivo Wellness</h3>
+            <p>
+              Engineering and optimizing .NET Core backend APIs integrated with SQL
+              Server and SAP modules, while supporting Azure App Service deployments
+              and Azure DevOps CI/CD pipelines.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">Feb 2024 - Jul 2024</span>
+            <h3>Web Developer Intern - iSigma Solutions</h3>
+            <p>
+              Developed and deployed dynamic web applications using PHP and
+              WordPress, improving responsiveness, SEO performance, testing,
+              debugging, and release reliability.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section">
+        <div class="section-heading projects-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Production-minded work</h2>
+          <p>
+            Projects from my development and deployment experience, focused on
+            cloud hosting, automation, reporting, and business visibility.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-topline">
+              <div class="project-icon">DSR</div>
+              <span class="project-type">Cloud reporting</span>
+            </div>
+            <h3>Daily Sales Report System</h3>
+            <div class="project-tags">
+              <span>Azure</span>
+              <span>SQL Server</span>
+              <span>.NET Core</span>
+            </div>
+            <p>
+              Architected and deployed a cloud-based DSR system on Azure App
+              Service for real-time sales monitoring across multiple business
+              units. Built scalable backend workflows with SQL Server stored
+              procedures and Azure DevOps CI/CD automation.
+            </p>
+            <div class="project-result">Result: faster reporting, cleaner deployments, scalable backend design.</div>
+            <a href="https://github.com/BhajanpreetSingh" target="_blank" rel="noreferrer">View GitHub</a>
+          </article>
+          <article class="project-card">
+            <div class="project-topline">
+              <div class="project-icon">BI</div>
+              <span class="project-type">Analytics platform</span>
+            </div>
+            <h3>E-Commerce Data Analytics System</h3>
+            <div class="project-tags">
+              <span>PHP</span>
+              <span>SQL</span>
+              <span>Azure App Service</span>
+              <span>Power BI</span>
+            </div>
+            <p>
+              Designed and developed a full-stack analytics system for Amazon,
+              Flipkart, and Blinkit data ingestion. Optimized database views for
+              faster reporting and integrated Power BI dashboards for sales, profit,
+              and loss insights.
+            </p>
+            <div class="project-result">Result: automated reporting and improved decision-making visibility.</div>
+            <a href="https://github.com/BhajanpreetSingh" target="_blank" rel="noreferrer">View GitHub</a>
+          </article>
+          <article class="project-card">
+            <div class="project-topline">
+              <div class="project-icon">CDN</div>
+              <span class="project-type">DevOps deployment</span>
+            </div>
+            <h3>Static Website Hosting</h3>
+            <div class="project-tags">
+              <span>Azure CDN</span>
+              <span>Blob Storage</span>
+              <span>Azure DevOps</span>
+              <span>ARM</span>
+            </div>
+            <p>
+              Hosted a static website on Azure Blob Storage with Azure CDN for
+              global distribution and better performance. Automated build, test,
+              and deployment workflows through Azure DevOps and GitHub integration.
+            </p>
+            <div class="project-result">Result: globally distributed hosting with automated release workflow.</div>
+            <a href="https://github.com/BhajanpreetSingh" target="_blank" rel="noreferrer">View GitHub</a>
+          </article>
+          <article class="project-card add-project-card">
+            <div class="project-topline">
+              <div class="project-icon">+</div>
+              <span class="project-type">Editable slot</span>
+            </div>
+            <h3>Add Next Project</h3>
+            <p>
+              Keep this as a reusable slot for your next DevOps or development
+              project. Add the problem, tools, deployment method, and measurable
+              outcome.
+            </p>
+            <a href="#contact">Add link</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h2>Ready for development and DevOps opportunities.</h2>
+          <p>
+            I am open to Software Development and DevOps-focused opportunities.
+            You can reach me through email, phone, GitHub, or LinkedIn.
+          </p>
+        </div>
+        <div class="contact-panel">
+          <div class="contact-links">
+            <a href="mailto:bhajanpreet54@gmail.com">
+              <span>Email</span>
+              bhajanpreet54@gmail.com
+            </a>
+            <a href="tel:+919817516558">
+              <span>Phone</span>
+              +91 98175 16558
+            </a>
+            <a href="https://github.com/BhajanpreetSingh" target="_blank" rel="noreferrer">
+              <span>GitHub</span>
+              github.com/BhajanpreetSingh
+            </a>
+            <a href="https://www.linkedin.com/in/bhajanpreetsingh/" target="_blank" rel="noreferrer">
+              <span>LinkedIn</span>
+              linkedin.com/in/bhajanpreetsingh
+            </a>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:bhajanpreet54@gmail.com">Email</a>
+            <a class="button secondary" href="tel:+919817516558">Call</a>
+            <a
+              class="button secondary"
+              id="resumeDownload"
+              href="assets/Bhajanpreet-Singh-Resume.pdf"
+              download="Bhajanpreet-Singh-Resume.pdf"
+            >
+              Download Resume
+            </a>
+          </div>
+          <label class="resume-upload" for="resumeInput">
+            <span>Change resume file for this session</span>
+            <input id="resumeInput" type="file" accept=".pdf,.doc,.docx" />
+          </label>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Bhajanpreet Singh - Software Developer growing into DevOps.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
